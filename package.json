@@ -1,0 +1,35 @@
+{
+  "name": "expressjs-casperjs-starterkit",
+  "version": "0.0.0",
+  "description": "Bare Minimum Starter Kit to get Casper Running with ExpressJS",
+  "main": "server.js",
+  "scripts": {
+    "env": "env",
+    "test": "node server.js & mocha-casperjs test/features/specs/*-spec.js"
+  },
+  "engines": {
+    "node": ">= 5.0",
+    "npm": ">= 3.3.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dschinkel/expressjs-casperjs-starterkit.git"
+  },
+  "author": "Dave Schinkel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dschinkel/expressjs-casperjs-starterkit/issues"
+  },
+  "homepage": "https://github.com/dschinkel/we-do-tdd#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "casper": "^0.1.1",
+    "casper-chai": "^0.2.1",
+    "casperjs": "^1.1.0-beta5",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "mocha-casperjs": "^0.5.5"
+  }
+}
