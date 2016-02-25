@@ -8,7 +8,7 @@ this project serves as an example of how to get mocha-casperjs up and running qu
 
 Be aware that "Bare Minimum" for this project means:
 
-- there is no task automation built-in,
+- there is no task automation built-in
 - there is no process management or error-handling built-in
 - there is no templating system being utilized
 
