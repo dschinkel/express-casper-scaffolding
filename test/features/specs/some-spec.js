@@ -30,8 +30,9 @@ describe('Feature: List Items', function() {
 });
 
 
-// why did I move a simple this.exit() to a function?
-// for code readability, simple as that
+// why did I move a simple this.exit() to a helper function?
+// for test/code readability, simple as that.  Picture this -spec.js
+// in real life having lots tests as well
 function exitPhantomJS(){
     this.exit();
 }
