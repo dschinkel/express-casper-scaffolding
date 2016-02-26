@@ -21,7 +21,6 @@ describe('Feature: List Items', function() {
                 expect(this.fetchText('h3')).to.equal('No items found');
             });
         });
-
     });
 
     casper.run(function() {
@@ -30,9 +29,8 @@ describe('Feature: List Items', function() {
 });
 
 
-// why did I move a simple this.exit() to a helper function?
-// for test/code readability, simple as that.  Picture this -spec.js
-// in real life having lots tests as well
+// why is this.exit() in a helper function?
+// to make this code more expressive (readability), simple as that
 function exitPhantomJS(){
     this.exit();
 }
