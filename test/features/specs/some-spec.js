@@ -22,15 +22,4 @@ describe('Feature: List Items', function() {
             });
         });
     });
-
-    casper.run(function() {
-        exitPhantomJS();
-    });
 });
-
-
-// why is this.exit() in a helper function?
-// to make this code more expressive (readability), simple as that
-function exitPhantomJS(){
-    this.exit();
-}
