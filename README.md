@@ -26,5 +26,5 @@ I'll add [gulp](http://gulpjs.com/) tasks for this soon, but for now it's manual
 ###**How to run tests**:
 
 - to run the tests ````npm test````
-- to kill the express server - ````killall node````
+- to kill the express server ````killall node````
 - So after each test run, to re-run the tests, kill the node process then run ````npm test```` again
