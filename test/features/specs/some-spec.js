@@ -30,7 +30,8 @@ describe('Feature: List Items', function() {
 });
 
 
-
+// why did I move a simple this.exit() to a function?
+// for code readability, simple as that
 function exitPhantomJS(){
     this.exit();
 }
