@@ -4,7 +4,6 @@
   "description": "Bare Minimum Starter Kit to get Casper Running with ExpressJS",
   "main": "server.js",
   "scripts": {
-    "env": "env",
     "test": "node server.js & mocha-casperjs test/features/specs/*-spec.js"
   },
   "engines": {
