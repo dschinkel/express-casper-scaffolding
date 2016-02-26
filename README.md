@@ -6,6 +6,8 @@ This is a node.js project running [mocha-casperjs](https://github.com/nathanbokt
 [express.js](expressjs.com).  The tests are done using [mocha.js](https://mochajs.org/), and [chai.js](http://chaijs.com/) (expect).  There is no need to require
 any node modules in your tests as mocha-casperjs resolves those for you at runtime automatically.
 
+This app simply runs a static index.html page which we test against with mocha-casper.js.
+
 If you want to know how to wire up tests using casperjs over node.js
 this project serves as an example of how to get mocha-casperjs up and running quickly and some example tests.
 
