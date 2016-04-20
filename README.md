@@ -1,8 +1,10 @@
-# ExpressJS & CasperJS Starter Kit
+# ExpressJS & CasperJS Scaffolding
 
 ![alt text](https://github.com/dschinkel/express-casper-starterkit/blob/master/public/images/successful-test-run.png?raw=true" Example Test Results")
 
-This is a node.js project running [mocha-casperjs](https://github.com/nathanboktae/mocha-casperjs) and vanilla 
+This is a bare minimal node.js project to get one up and running quickly.
+
+It's setup to use [mocha-casperjs](https://github.com/nathanboktae/mocha-casperjs) and vanilla 
 [express.js](expressjs.com).  The tests are done using [mocha.js](https://mochajs.org/), and [chai.js](http://chaijs.com/) (expect).  There is no need to require
 any node modules in your tests as mocha-casperjs resolves those for you at runtime automatically.
 
